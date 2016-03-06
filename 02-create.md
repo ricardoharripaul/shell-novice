@@ -419,3 +419,10 @@ but it does find the copy in `thesis` that we didn't delete.
 > The command `ls -t` lists things by time of last change,
 > with most recently changed files or directories first.
 > In what order does `ls -R -t` display things?
+
+How can I get a view of the first few lines of file.txt file to see what is written in it?
+a) cat file.txt
+b) more file.txt
+c) less file.txt
+d) head file.txt
+e) all of the above
