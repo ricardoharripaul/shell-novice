@@ -522,3 +522,18 @@ so she decides to get some coffee and catch up on her reading.
 > done
 > ~~~
 
+We have a file that contains this text:
+cat file.txt
+1
+2
+3
+4
+5
+
+What will the following code do?
+for f in $(cat file.txt);do echo $f;done
+a)display the entire file several times
+b)iterate through all the lines in the file
+c)iterate through each line of the file several times before skipping to the next line
+d)nothing because there is a logic error
+c)hang and wait for stdin
